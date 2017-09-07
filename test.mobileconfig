@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EAP</key>
+			<dict/>
+			<key>IPSec</key>
+			<dict>
+				<key>AuthenticationMethod</key>
+				<string>SharedSecret</string>
+				<key>SharedSecret</key>
+				<data>
+				Y2hpdHVqc3E=
+				</data>
+			</dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>1</integer>
+			</dict>
+			<key>PPP</key>
+			<dict>
+				<key>AuthName</key>
+				<string>ls1194</string>
+				<key>CommRemoteAddress</key>
+				<string>205.209.141.204</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>配置 VPN 设置（包括鉴定）。</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN (vpn_L2TP)</string>
+			<key>PayloadIdentifier</key>
+			<string></string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>074073BB-32AD-4949-8A97-DCC156AD62D7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxies</key>
+			<dict/>
+			<key>UserDefinedName</key>
+			<string>vpn_L2TP</string>
+			<key>VPNType</key>
+			<string>L2TP</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>描述文件描述。</string>
+	<key>PayloadDisplayName</key>
+	<string>描述文件名称</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>82357030-9B0D-437C-BD12-C8B39CA62004</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
